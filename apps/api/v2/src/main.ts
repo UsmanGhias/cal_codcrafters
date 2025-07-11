@@ -104,7 +104,7 @@ async function generateSwagger(app: NestExpressApplication<Server>) {
   const logger = new Logger("App");
   logger.log(`Generating Swagger documentation...\n`);
 
-  const config = new DocumentBuilder().setTitle("Cal.com API v2").build();
+  const config = new DocumentBuilder().setTitle("CODCrafters Calendar API v2").build();
   const document = SwaggerModule.createDocument(app, config);
   document.paths = groupAndSortPathsByFirstTag(document.paths);
 

@@ -184,6 +184,7 @@ const nextConfig = {
     // externalize server-side node_modules with size > 1mb, to improve dev mode performance/RAM usage
     optimizePackageImports: ["@calcom/ui"],
   },
+  // Remove problematic turbo config for now
   productionBrowserSourceMaps: true,
   /* We already do type check on GH actions */
   typescript: {
@@ -218,7 +219,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  webpack: (config, { webpack, buildId, isServer }) => {
+  webpack: (config, { webpack, buildId, isServer, dev }) => {
     if (isServer) {
       // Module not found fix @see https://github.com/boxyhq/jackson/issues/1535#issuecomment-1704381612
       config.plugins.push(
@@ -249,6 +250,35 @@ const nextConfig = {
       test: [/lib\/.*.tsx?/i],
       sideEffects: false,
     });
+
+    // Reduce memory usage in development
+    if (dev && !isServer) {
+      config.optimization = {
+        ...config.optimization,
+        splitChunks: {
+          chunks: "all",
+          cacheGroups: {
+            default: false,
+            vendors: false,
+            // Create smaller chunks
+            vendor: {
+              name: "vendor",
+              chunks: "all",
+              test: /node_modules/,
+              priority: 20,
+            },
+            common: {
+              name: "common",
+              minChunks: 2,
+              chunks: "all",
+              priority: 10,
+              reuseExistingChunk: true,
+              enforce: true,
+            },
+          },
+        },
+      };
+    }
 
     return config;
   },

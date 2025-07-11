@@ -37,7 +37,7 @@ export const platformPlans: IndividualPlatformPlan[] = [
   {
     plan: "Essentials",
     description:
-      "Your essential package with sophisticated support, hosted platform APIs, Cal.com Atoms (React components) and more.",
+      "Your essential package with sophisticated support, hosted platform APIs, CODCrafters Calendar Atoms (React components) and more.",
     pricing: 299,
     includes: [
       "Up to 500 bookings a month. $0,60 overage beyond",
@@ -86,7 +86,7 @@ export const helpCards: HelpCardInfo[] = [
     icon: "github",
     title: "Get the Source code",
     description:
-      "Our Platform Starter Kit is being used in production by Cal.com itself. You can find the ready-to-rock source code on GitHub.",
+      "Our Platform Starter Kit is being used in production by CODCrafters Calendar itself. You can find the ready-to-rock source code on GitHub.",
     variant: "basic",
     actionButton: {
       href: "https://github.com/calcom/examples",

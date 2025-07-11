@@ -23,7 +23,7 @@ export const platformPlans: IndividualPlatformPlan[] = [
   {
     plan: "Essentials",
     description:
-      "Your essential package with sophisticated support, hosted platform APIs, Cal.com Atoms (React components) and more.",
+      "Your essential package with sophisticated support, hosted platform APIs, CODCrafters Calendar Atoms (React components) and more.",
     pricing: 299,
     includes: [
       "Everything in Starter",

@@ -9,9 +9,9 @@ import type { HomeLayoutProps } from "fumadocs-ui/layouts/home";
  */
 export const baseOptions: HomeLayoutProps = {
   nav: {
-    title: "Cal.com",
+    title: "CODCrafters Calendar",
   },
-  githubUrl: "https://github.com/calcom/cal.com",
+  githubUrl: "https://github.com/usmanghias/codcrafters-calendar",
   links: [
     {
       text: "Design",
@@ -20,7 +20,7 @@ export const baseOptions: HomeLayoutProps = {
     },
     {
       text: "GitHub",
-      url: "https://github.com/calcom/cal.com",
+      url: "https://github.com/usmanghias/codcrafters-calendar",
     },
   ],
 };

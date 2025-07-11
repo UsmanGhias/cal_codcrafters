@@ -1,4 +1,4 @@
-# Cal.com Permission Documentation
+# CODCrafters Calendar Permission Documentation
 
 This document maps existing role-based permission checks to the new PBAC (Permission-Based Access Control) system's permission strings in the format `resource.action`.
 

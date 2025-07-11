@@ -1,9 +1,19 @@
 {
-  "name": "Cal.com",
-  "description": "Open Source Scheduling",
-  "repository": "https://github.com/calcom/cal.com",
-  "logo": "https://cal.com/android-chrome-512x512.png",
-  "keywords": ["react", "typescript", "node", "nextjs", "prisma", "postgres", "trpc"],
+  "name": "CODCrafters Calendar",
+  "description": "Professional scheduling infrastructure for modern teams",
+  "repository": "https://github.com/usmanghias/codcrafters-calendar",
+  "logo": "https://calendar.codcrafters.org/logo.svg",
+  "keywords": [
+    "react",
+    "typescript",
+    "node",
+    "nextjs",
+    "prisma",
+    "postgres",
+    "trpc",
+    "scheduling",
+    "calendar"
+  ],
   "addons": [
     {
       "plan": "heroku-postgresql:mini"
@@ -17,6 +27,21 @@
     "NEXT_PUBLIC_WEBAPP_URL": {
       "description": "Replace HEROKU_APP_NAME with the name given to your app",
       "value": "https://HEROKU_APP_NAME.herokuapp.com",
+      "required": "true"
+    },
+    "NEXT_PUBLIC_APP_NAME": {
+      "description": "Application name",
+      "value": "CODCrafters Calendar",
+      "required": "true"
+    },
+    "NEXT_PUBLIC_COMPANY_NAME": {
+      "description": "Company name",
+      "value": "CODCrafters, Inc.",
+      "required": "true"
+    },
+    "NEXT_PUBLIC_SUPPORT_MAIL_ADDRESS": {
+      "description": "Support email address",
+      "value": "support@codcrafters.org",
       "required": "true"
     },
     "CALENDSO_ENCRYPTION_KEY": {

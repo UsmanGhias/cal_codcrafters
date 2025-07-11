@@ -13,8 +13,8 @@ self.addEventListener("push", async (event) => {
     return;
   }
 
-  const title = notificationData.title || "New Cal.com Notification";
-  const image = notificationData.icon || "https://cal.com/api/logo?type=icon";
+  const title = notificationData.title || "New CODCrafters Calendar Notification";
+  const image = notificationData.icon || "https://codcrafters.com/api/logo?type=icon";
 
    event.waitUntil(
     (async () => {

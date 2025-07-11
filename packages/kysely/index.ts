@@ -5,7 +5,8 @@ import type { DB, Booking } from "./types";
 
 export type { DB, Booking };
 
-const connectionString = process.env.DATABASE_URL ?? "postgresql://postgres:@localhost:5450/calendso";
+const connectionString =
+  process.env.DATABASE_URL ?? "postgresql://postgres:codcrafters123@localhost:5432/calendso";
 
 const pool = new Pool({ connectionString });
 

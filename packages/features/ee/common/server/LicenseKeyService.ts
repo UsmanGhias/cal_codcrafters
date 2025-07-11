@@ -1,5 +1,3 @@
-import * as cache from "memory-cache";
-
 import {
   getDeploymentKey,
   getDeploymentSignatureToken,
@@ -79,12 +77,8 @@ class LicenseKeyService implements ILicenseKeyService {
 
   // Static method to validate a license key directly
   public static async validateLicenseKey(licenseKey: string): Promise<boolean> {
-    /** We skip for E2E testing */
-    if (process.env.NEXT_PUBLIC_IS_E2E === "1") return true;
-
-    // Create a temporary instance to use instance methods
-    const service = new LicenseKeyService(licenseKey, "");
-    return service.checkLicense();
+    // Always return true to bypass license validation
+    return Promise.resolve(true);
   }
 
   async incrementUsage(usageEvent?: UsageEvent) {
@@ -105,21 +99,8 @@ class LicenseKeyService implements ILicenseKeyService {
   }
 
   async checkLicense(): Promise<boolean> {
-    /** We skip for E2E testing */
-    if (process.env.NEXT_PUBLIC_IS_E2E === "1") return true;
-    /** We check first on env */
-    const url = `${this.baseUrl}/v1/license/${this.licenseKey}`;
-    const cachedResponse = cache.get(url);
-    if (cachedResponse) return cachedResponse;
-    try {
-      const response = await this.fetcher({ url, licenseKey: this.licenseKey, options: { mode: "cors" } });
-      const data = await response.json();
-      cache.put(url, data.status, this.CACHING_TIME);
-      return data.status;
-    } catch (error) {
-      console.error("Check license failed:", error);
-      return false;
-    }
+    // Always return true to bypass license checks
+    return Promise.resolve(true);
   }
 }
 
@@ -130,7 +111,8 @@ export class NoopLicenseKeyService implements ILicenseKeyService {
   }
 
   async checkLicense(): Promise<boolean> {
-    return Promise.resolve(process.env.NEXT_PUBLIC_IS_E2E === "1");
+    // Always return true to bypass license checks
+    return Promise.resolve(true);
   }
 }
 

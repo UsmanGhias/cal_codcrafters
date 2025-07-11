@@ -1,7 +1,7 @@
 {
-    "name": "Cal.com",
-    "short_name": "Cal.com",
-    "description": "Scheduling infrastructure for absolutely everyone.",
+    "name": "CODCrafters Calendar",
+    "short_name": "CODCrafters Calendar",
+    "description": "Professional scheduling infrastructure for modern teams.",
     "icons": [
         {
             "src": "/api/logo?type=android-chrome-192",
@@ -14,9 +14,9 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#1e293b",
+    "background_color": "#0f172a",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/"  
+    "start_url": "/"
 }

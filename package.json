@@ -1,7 +1,8 @@
 {
-  "name": "calcom-monorepo",
+  "name": "codcrafters-calendar",
   "version": "0.0.0",
   "private": true,
+  "description": "CODCrafters Calendar - Professional scheduling infrastructure for modern teams",
   "workspaces": [
     "apps/*",
     "apps/api/*",
@@ -90,6 +91,7 @@
     "@jetstreamapp/soql-parser-js": "^6.1.0",
     "@playwright/test": "^1.45.3",
     "@snaplet/copycat": "^4.1.0",
+    "@svgr/webpack": "^8.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^16.0.1",
     "@vitest/ui": "^2.1.1",

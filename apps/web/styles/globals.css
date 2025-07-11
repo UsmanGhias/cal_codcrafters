@@ -56,198 +56,198 @@
   --cal-radius-3xl: 1.5rem; /* 24px */
   --cal-radius-full: 9999px;
 
-  /* Background Standard */
-  --cal-bg-emphasis: hsla(220, 13%, 91%, 1); /* gray.200 - active items and emphasising */
-  --cal-bg: hsla(0, 0%, 100%, 1); /* white - default background */
-  --cal-bg-subtle: hsla(220, 14%, 94%, 1); /* gray.100 - hovering on items, subtle raising */
-  --cal-bg-muted: hsla(210, 20%, 97%, 1); /* gray.50 - large items, sidebar, sections */
-  --cal-bg-inverted: hsla(210, 30%, 4%, 1); /* gray.900 - tooltips */
+  /* Background Standard - Dark Indigo Theme */
+  --cal-bg-emphasis: hsla(221, 39%, 15%, 1); /* dark indigo emphasis */
+  --cal-bg: hsla(221, 39%, 11%, 1); /* dark indigo background */
+  --cal-bg-subtle: hsla(221, 39%, 13%, 1); /* dark indigo subtle */
+  --cal-bg-muted: hsla(221, 39%, 9%, 1); /* dark indigo muted */
+  --cal-bg-inverted: hsla(0, 0%, 100%, 1); /* white for contrast */
 
   /* Background Primary */
-  --cal-bg-primary: hsla(214, 30%, 16%, 1); /* stone-100 */
-  --cal-bg-primary-emphasis: hsla(220, 6%, 25%, 1); /* stone-800 */
-  --cal-bg-primary-muted: hsla(220, 14%, 94%, 1); /* stone-400 */
+  --cal-bg-primary: hsla(142, 76%, 36%, 1); /* lime green primary */
+  --cal-bg-primary-emphasis: hsla(142, 76%, 28%, 1); /* darker lime green */
+  --cal-bg-primary-muted: hsla(142, 76%, 44%, 1); /* lighter lime green */
 
   /* Background Brand */
-  --cal-bg-brand: hsla(214, 30%, 16%, 1); /* gray-50 */
-  --cal-bg-brand-emphasis: hsla(220, 6%, 25%, 1); /* stone-100 */
-  --cal-bg-brand-muted: hsla(220, 14%, 94%, 1); /* stone-100 */
+  --cal-bg-brand: hsla(142, 76%, 36%, 1); /* lime green brand */
+  --cal-bg-brand-emphasis: hsla(142, 76%, 28%, 1); /* darker lime green */
+  --cal-bg-brand-muted: hsla(142, 76%, 44%, 1); /* lighter lime green */
 
   /* Background Semantic */
-  --cal-bg-semantic-info-subtle: hsla(212, 88%, 97%, 1); /* blue-100 */
-  --cal-bg-semantic-info-emphasis: hsla(236, 80%, 25%, 1); /* blue-500 */
-  --cal-bg-semantic-success-subtle: hsla(167, 54%, 93%, 1); /* green-100 */
-  --cal-bg-semantic-success-emphasis: hsla(158, 74%, 38%, 1); /* green-500 */
-  --cal-bg-semantic-attention-subtle: hsla(34, 100%, 92%, 1); /* orange-100 */
-  --cal-bg-semantic-attention-emphasis: hsla(15, 79%, 34%, 1); /* orange-500 */
-  --cal-bg-semantic-error-subtle: hsla(0, 93%, 94%, 1); /* red-100 */
-  --cal-bg-semantic-error-emphasis: hsla(0, 63%, 24%, 1); /* red-500 */
+  --cal-bg-semantic-info-subtle: hsla(221, 39%, 20%, 1); /* dark indigo info */
+  --cal-bg-semantic-info-emphasis: hsla(142, 76%, 36%, 1); /* lime green info */
+  --cal-bg-semantic-success-subtle: hsla(142, 76%, 20%, 1); /* lime green success */
+  --cal-bg-semantic-success-emphasis: hsla(142, 76%, 36%, 1); /* lime green success */
+  --cal-bg-semantic-attention-subtle: hsla(45, 93%, 20%, 1); /* yellow attention */
+  --cal-bg-semantic-attention-emphasis: hsla(45, 93%, 47%, 1); /* yellow attention */
+  --cal-bg-semantic-error-subtle: hsla(0, 84%, 20%, 1); /* red error */
+  --cal-bg-semantic-error-emphasis: hsla(0, 84%, 60%, 1); /* red error */
 
   /* Background Visualization */
-  --cal-bg-visualization-1-subtle: hsla(326, 78%, 95%, 1); /* pink-100 */
-  --cal-bg-visualization-1-emphasis: hsla(330, 81%, 60%, 1); /* pink-500 */
-  --cal-bg-visualization-2-subtle: hsla(256, 86%, 91%, 1); /* purple-100 */
-  --cal-bg-visualization-2-emphasis: hsla(256, 85%, 57%, 1); /* purple-500 */
-  --cal-bg-visualization-3-subtle: hsla(217, 87%, 91%, 1); /* blue-100 */
-  --cal-bg-visualization-3-emphasis: hsla(235, 100%, 63%, 1); /* blue-500 */
-  --cal-bg-visualization-4-subtle: hsla(167, 54%, 93%, 1); /* green-100 */
-  --cal-bg-visualization-4-emphasis: hsla(158, 74%, 38%, 1); /* green-500 */
-  --cal-bg-visualization-5-subtle: hsla(55, 97%, 88%, 1); /* yellow-100 */
-  --cal-bg-visualization-5-emphasis: hsla(45, 93%, 47%, 1); /* yellow-500 */
-  --cal-bg-visualization-6-subtle: hsla(34, 100%, 92%, 1); /* orange-100 */
-  --cal-bg-visualization-6-emphasis: hsla(25, 95%, 53%, 1); /* orange-500 */
-  --cal-bg-visualization-7-subtle: hsla(0, 96%, 89%, 1); /* red-100 */
-  --cal-bg-visualization-7-emphasis: hsla(0, 84%, 60%, 1); /* red-500 */
+  --cal-bg-visualization-1-subtle: hsla(142, 76%, 20%, 1); /* lime green */
+  --cal-bg-visualization-1-emphasis: hsla(142, 76%, 36%, 1); /* lime green */
+  --cal-bg-visualization-2-subtle: hsla(221, 39%, 20%, 1); /* dark indigo */
+  --cal-bg-visualization-2-emphasis: hsla(221, 39%, 30%, 1); /* dark indigo */
+  --cal-bg-visualization-3-subtle: hsla(142, 76%, 25%, 1); /* lime green variant */
+  --cal-bg-visualization-3-emphasis: hsla(142, 76%, 40%, 1); /* lime green variant */
+  --cal-bg-visualization-4-subtle: hsla(221, 39%, 25%, 1); /* dark indigo variant */
+  --cal-bg-visualization-4-emphasis: hsla(221, 39%, 35%, 1); /* dark indigo variant */
+  --cal-bg-visualization-5-subtle: hsla(45, 93%, 20%, 1); /* yellow */
+  --cal-bg-visualization-5-emphasis: hsla(45, 93%, 47%, 1); /* yellow */
+  --cal-bg-visualization-6-subtle: hsla(25, 95%, 20%, 1); /* orange */
+  --cal-bg-visualization-6-emphasis: hsla(25, 95%, 53%, 1); /* orange */
+  --cal-bg-visualization-7-subtle: hsla(0, 84%, 20%, 1); /* red */
+  --cal-bg-visualization-7-emphasis: hsla(0, 84%, 60%, 1); /* red */
 
-  /* Legacy Background Components - Consider deprecating */
-  --cal-bg-info: hsla(221, 91%, 93%, 1); /* #dee9fc - info backgrounds */
-  --cal-bg-success: hsla(142, 76%, 94%, 1); /* #e2fbe8 - success backgrounds */
-  --cal-bg-attention: hsla(33, 100%, 92%, 1); /* #fceed8 - attention backgrounds */
-  --cal-bg-error: hsla(3, 66%, 93%, 1); /* #f9e3e2 - error backgrounds */
-  --cal-bg-dark-error: hsla(2, 55%, 30%, 1); /* Keeping existing dark error */
+  /* Legacy Background Components */
+  --cal-bg-info: hsla(221, 39%, 20%, 1); /* dark indigo info */
+  --cal-bg-success: hsla(142, 76%, 20%, 1); /* lime green success */
+  --cal-bg-attention: hsla(45, 93%, 20%, 1); /* yellow attention */
+  --cal-bg-error: hsla(0, 84%, 20%, 1); /* red error */
+  --cal-bg-dark-error: hsla(0, 84%, 15%, 1); /* darker red error */
 
   /* Borders */
-  --cal-border-emphasis: hsla(218, 11%, 65%, 1); /* gray.400 - input:hover */
-  --cal-border: hsla(216, 12%, 84%, 1); /* gray.300 - inputs */
-  --cal-border-subtle: hsla(220, 13%, 91%, 1); /* gray.200 - container borders */
-  --cal-border-muted: hsla(220, 14%, 94%, 1); /* gray.100 */
-  --cal-border-error: hsla(0, 96%, 89%, 1); /* Keeping existing error border */
-  --cal-border-semantic-error: hsla(0, 96%, 89%, 1);
+  --cal-border-emphasis: hsla(221, 39%, 25%, 1); /* dark indigo border emphasis */
+  --cal-border: hsla(221, 39%, 20%, 1); /* dark indigo border */
+  --cal-border-subtle: hsla(221, 39%, 15%, 1); /* dark indigo border subtle */
+  --cal-border-muted: hsla(221, 39%, 13%, 1); /* dark indigo border muted */
+  --cal-border-error: hsla(0, 84%, 60%, 1); /* red error border */
+  --cal-border-semantic-error: hsla(0, 84%, 60%, 1); /* red error border */
   --cal-border-booker: var(--cal-border-subtle);
 
   /* Content/Text Standard */
-  --cal-text-emphasis: hsla(210, 30%, 4%, 1); /* gray-900 */
-  --cal-text: hsla(220, 6%, 25%, 1); /* gray-700 */
-  --cal-text-subtle: hsla(220, 9%, 46%, 1); /* gray-500 */
-  --cal-text-muted: hsla(218, 11%, 65%, 1); /* gray-400 */
-  --cal-text-inverted: hsla(0, 0%, 100%, 1); /* white */
+  --cal-text-emphasis: hsla(0, 0%, 100%, 1); /* white text emphasis */
+  --cal-text: hsla(0, 0%, 90%, 1); /* light gray text */
+  --cal-text-subtle: hsla(0, 0%, 70%, 1); /* medium gray text */
+  --cal-text-muted: hsla(0, 0%, 50%, 1); /* muted gray text */
+  --cal-text-inverted: hsla(221, 39%, 11%, 1); /* dark indigo inverted text */
 
   /* Content/Text Semantic */
-  --cal-text-semantic-info: hsla(236, 80%, 25%, 1); /* blue-800 */
-  --cal-text-semantic-success: hsla(150, 84%, 22%, 1); /* green-800 */
-  --cal-text-semantic-attention: hsla(15, 79%, 34%, 1); /* orange-800 */
-  --cal-text-semantic-error: hsla(0, 63%, 24%, 1); /* red-800 */
+  --cal-text-semantic-info: hsla(142, 76%, 60%, 1); /* lime green info text */
+  --cal-text-semantic-success: hsla(142, 76%, 60%, 1); /* lime green success text */
+  --cal-text-semantic-attention: hsla(45, 93%, 60%, 1); /* yellow attention text */
+  --cal-text-semantic-error: hsla(0, 84%, 70%, 1); /* red error text */
 
   /* Content/Text Visualization */
-  --cal-text-visualization-1: hsla(332, 79%, 25%, 1); /* pink-800 */
-  --cal-text-visualization-2: hsla(270, 91%, 25%, 1); /* purple-800 */
-  --cal-text-visualization-3: hsla(217, 91%, 25%, 1); /* blue-800 */
-  --cal-text-visualization-4: hsla(142, 71%, 25%, 1); /* green-800 */
-  --cal-text-visualization-5: hsla(45, 93%, 25%, 1); /* yellow-800 */
-  --cal-text-visualization-6: hsla(24, 95%, 25%, 1); /* orange-800 */
-  --cal-text-visualization-7: hsla(0, 84%, 25%, 1); /* red-800 */
+  --cal-text-visualization-1: hsla(142, 76%, 60%, 1); /* lime green */
+  --cal-text-visualization-2: hsla(221, 39%, 60%, 1); /* dark indigo */
+  --cal-text-visualization-3: hsla(142, 76%, 65%, 1); /* lime green variant */
+  --cal-text-visualization-4: hsla(221, 39%, 65%, 1); /* dark indigo variant */
+  --cal-text-visualization-5: hsla(45, 93%, 60%, 1); /* yellow */
+  --cal-text-visualization-6: hsla(25, 95%, 60%, 1); /* orange */
+  --cal-text-visualization-7: hsla(0, 84%, 70%, 1); /* red */
 
   /* Border/Semantic Subtle */
-  --cal-border-semantic-attention-subtle: hsla(32, 98%, 83%, 1);
-  --cal-border-semantic-error-subtle: hsla(0, 96%, 89%, 1);
+  --cal-border-semantic-attention-subtle: hsla(45, 93%, 30%, 1); /* yellow attention border */
+  --cal-border-semantic-error-subtle: hsla(0, 84%, 30%, 1); /* red error border */
 
-  /* Legacy Content/Text Components - Consider deprecating */
-  --cal-text-info: hsla(225, 57%, 33%, 1); /* #253985 - interactive text/icons */
-  --cal-text-success: hsla(144, 34%, 24%, 1); /* #285231 */
-  --cal-text-attention: hsla(16, 62%, 28%, 1); /* Keeping existing attention text */
-  --cal-text-error: hsla(0, 63%, 31%, 1); /* Keeping existing error text */
+  /* Legacy Content/Text Components */
+  --cal-text-info: hsla(142, 76%, 60%, 1); /* lime green info text */
+  --cal-text-success: hsla(142, 76%, 60%, 1); /* lime green success text */
+  --cal-text-attention: hsla(45, 93%, 60%, 1); /* yellow attention text */
+  --cal-text-error: hsla(0, 84%, 70%, 1); /* red error text */
 
   /* Brand */
-  --cal-brand: hsla(221, 39%, 11%, 1); /* Keeping existing brand color */
-  --cal-brand-emphasis: hsla(0, 0%, 6%, 1); /* Keeping existing brand emphasis */
-  --cal-brand-text: hsla(0, 0%, 100%, 1); /* white */
+  --cal-brand: hsla(142, 76%, 36%, 1); /* lime green brand */
+  --cal-brand-emphasis: hsla(142, 76%, 28%, 1); /* darker lime green brand */
+  --cal-brand-text: hsla(0, 0%, 100%, 1); /* white brand text */
 }
 .dark {
-  /* Background Standard */
-  --cal-bg-emphasis: hsla(0, 0%, 25%, 1); /* stone-700 */
-  --cal-bg: hsla(0, 0%, 6%, 1); /* stone-950 */
-  --cal-bg-subtle: hsla(0, 0%, 15%, 1); /* stone-800 */
-  --cal-bg-muted: hsla(0, 0%, 9%, 1); /* stone-900 */
-  --cal-bg-inverted: hsla(0, 0%, 98%, 1); /* stone-50 */
+  /* Background Standard - Dark Indigo Theme (same as light for consistency) */
+  --cal-bg-emphasis: hsla(221, 39%, 15%, 1); /* dark indigo emphasis */
+  --cal-bg: hsla(221, 39%, 11%, 1); /* dark indigo background */
+  --cal-bg-subtle: hsla(221, 39%, 13%, 1); /* dark indigo subtle */
+  --cal-bg-muted: hsla(221, 39%, 9%, 1); /* dark indigo muted */
+  --cal-bg-inverted: hsla(0, 0%, 100%, 1); /* white for contrast */
 
   /* Background Primary */
-  --cal-bg-primary: hsla(0, 0%, 96%, 1); /* stone-100 */
-  --cal-bg-primary-emphasis: hsla(0, 0%, 64%, 1); /* stone-800 */
-  --cal-bg-primary-muted: hsla(0, 0%, 15%, 1); /* stone-400 */
+  --cal-bg-primary: hsla(142, 76%, 36%, 1); /* lime green primary */
+  --cal-bg-primary-emphasis: hsla(142, 76%, 28%, 1); /* darker lime green */
+  --cal-bg-primary-muted: hsla(142, 76%, 44%, 1); /* lighter lime green */
 
   /* Background Brand */
-  --cal-bg-brand: hsla(0, 0%, 98%, 1); /* gray-50 */
-  --cal-bg-brand-emphasis: hsla(0, 0%, 96%, 1); /* stone-100 */
-  --cal-bg-brand-muted: hsla(0, 0%, 96%, 1); /* stone-100 */
+  --cal-bg-brand: hsla(142, 76%, 36%, 1); /* lime green brand */
+  --cal-bg-brand-emphasis: hsla(142, 76%, 28%, 1); /* darker lime green */
+  --cal-bg-brand-muted: hsla(142, 76%, 44%, 1); /* lighter lime green */
 
   /* Background Semantic */
-  --cal-bg-semantic-info-subtle: hsla(236, 80%, 8%, 1); /* blue-800 */
-  --cal-bg-semantic-info-emphasis: hsla(229, 90%, 74%, 1); /* blue-500 */
-  --cal-bg-semantic-success-subtle: hsla(148, 88%, 16%, 1); /* green-800 */
-  --cal-bg-semantic-success-emphasis: hsla(158, 74%, 38%, 1); /* green-500 */
-  --cal-bg-semantic-attention-subtle: hsla(21, 86%, 8%, 1); /* orange-800 */
-  --cal-bg-semantic-attention-emphasis: hsla(27, 96%, 61%, 1); /* orange-500 */
-  --cal-bg-semantic-error-subtle: hsla(0, 70%, 8%, 1); /* red-800 */
-  --cal-bg-semantic-error-emphasis: hsla(0, 91%, 71%, 1); /* red-500 */
+  --cal-bg-semantic-info-subtle: hsla(221, 39%, 20%, 1); /* dark indigo info */
+  --cal-bg-semantic-info-emphasis: hsla(142, 76%, 36%, 1); /* lime green info */
+  --cal-bg-semantic-success-subtle: hsla(142, 76%, 20%, 1); /* lime green success */
+  --cal-bg-semantic-success-emphasis: hsla(142, 76%, 36%, 1); /* lime green success */
+  --cal-bg-semantic-attention-subtle: hsla(45, 93%, 20%, 1); /* yellow attention */
+  --cal-bg-semantic-attention-emphasis: hsla(45, 93%, 47%, 1); /* yellow attention */
+  --cal-bg-semantic-error-subtle: hsla(0, 84%, 20%, 1); /* red error */
+  --cal-bg-semantic-error-emphasis: hsla(0, 84%, 60%, 1); /* red error */
 
   /* Background Visualization */
-  --cal-bg-visualization-1-subtle: hsla(336, 74%, 35%, 1); /* pink-200 */
-  --cal-bg-visualization-1-emphasis: hsla(330, 81%, 60%, 1); /* pink-500 */
-  --cal-bg-visualization-2-subtle: hsla(252, 83%, 23%, 1); /* purple-200 */
-  --cal-bg-visualization-2-emphasis: hsla(256, 85%, 57%, 1); /* purple-500 */
-  --cal-bg-visualization-3-subtle: hsla(236, 74%, 35%, 1); /* blue-200 */
-  --cal-bg-visualization-3-emphasis: hsla(235, 100%, 63%, 1); /* blue-500 */
-  --cal-bg-visualization-4-subtle: hsla(150, 84%, 22%, 1); /* green-200 */
-  --cal-bg-visualization-4-emphasis: hsla(158, 74%, 38%, 1); /* green-500 */
-  --cal-bg-visualization-5-subtle: hsla(28, 73%, 26%, 1); /* yellow-200 */
-  --cal-bg-visualization-5-emphasis: hsla(45, 93%, 47%, 1); /* yellow-500 */
-  --cal-bg-visualization-6-subtle: hsla(15, 75%, 23%, 1); /* orange-200 */
-  --cal-bg-visualization-6-emphasis: hsla(25, 95%, 53%, 1); /* orange-500 */
-  --cal-bg-visualization-7-subtle: hsla(0, 70%, 35%, 1); /* red-200 */
-  --cal-bg-visualization-7-emphasis: hsla(0, 84%, 60%, 1); /* red-500 */
+  --cal-bg-visualization-1-subtle: hsla(142, 76%, 20%, 1); /* lime green */
+  --cal-bg-visualization-1-emphasis: hsla(142, 76%, 36%, 1); /* lime green */
+  --cal-bg-visualization-2-subtle: hsla(221, 39%, 20%, 1); /* dark indigo */
+  --cal-bg-visualization-2-emphasis: hsla(221, 39%, 30%, 1); /* dark indigo */
+  --cal-bg-visualization-3-subtle: hsla(142, 76%, 25%, 1); /* lime green variant */
+  --cal-bg-visualization-3-emphasis: hsla(142, 76%, 40%, 1); /* lime green variant */
+  --cal-bg-visualization-4-subtle: hsla(221, 39%, 25%, 1); /* dark indigo variant */
+  --cal-bg-visualization-4-emphasis: hsla(221, 39%, 35%, 1); /* dark indigo variant */
+  --cal-bg-visualization-5-subtle: hsla(45, 93%, 20%, 1); /* yellow */
+  --cal-bg-visualization-5-emphasis: hsla(45, 93%, 47%, 1); /* yellow */
+  --cal-bg-visualization-6-subtle: hsla(25, 95%, 20%, 1); /* orange */
+  --cal-bg-visualization-6-emphasis: hsla(25, 95%, 53%, 1); /* orange */
+  --cal-bg-visualization-7-subtle: hsla(0, 84%, 20%, 1); /* red */
+  --cal-bg-visualization-7-emphasis: hsla(0, 84%, 60%, 1); /* red */
 
-  /* Legacy Background Components - Consider deprecating */
-  --cal-bg-info: hsla(228, 56%, 33%, 1); /* Keeping existing info background */
-  --cal-bg-success: hsla(133, 34%, 24%, 1); /* Keeping existing success background */
-  --cal-bg-attention: hsla(16, 62%, 28%, 1); /* Keeping existing attention background */
-  --cal-bg-error: hsla(2, 55%, 30%, 1); /* Keeping existing error background */
-  --cal-bg-dark-error: hsla(2, 55%, 30%, 1); /* Keeping existing dark error */
+  /* Legacy Background Components */
+  --cal-bg-info: hsla(221, 39%, 20%, 1); /* dark indigo info */
+  --cal-bg-success: hsla(142, 76%, 20%, 1); /* lime green success */
+  --cal-bg-attention: hsla(45, 93%, 20%, 1); /* yellow attention */
+  --cal-bg-error: hsla(0, 84%, 20%, 1); /* red error */
+  --cal-bg-dark-error: hsla(0, 84%, 15%, 1); /* darker red error */
 
   /* Border Standard */
-  --cal-border: hsla(0, 0%, 30%, 1); /* stone-600 */
-  --cal-border-muted: hsla(0, 0%, 9%, 1); /* stone-500 */
-  --cal-border-subtle: hsla(0, 0%, 15%, 1); /* stone-700 */
-  --cal-border-emphasis: hsla(0, 0%, 45%, 1); /* stone-800 */
+  --cal-border: hsla(221, 39%, 20%, 1); /* dark indigo border */
+  --cal-border-muted: hsla(221, 39%, 13%, 1); /* dark indigo border muted */
+  --cal-border-subtle: hsla(221, 39%, 15%, 1); /* dark indigo border subtle */
+  --cal-border-emphasis: hsla(221, 39%, 25%, 1); /* dark indigo border emphasis */
   --cal-border-booker: var(--cal-border-subtle);
   /* Border Semantic */
-  --cal-border-semantic-error: hsla(0, 63%, 24%, 1); /* red-800 */
+  --cal-border-semantic-error: hsla(0, 84%, 60%, 1); /* red error border */
 
   /* Border/Semantic Subtle */
-  --cal-border-semantic-attention-subtle: hsla(15, 75%, 23%, 1);
-  --cal-border-semantic-error-subtle: hsla(0, 63%, 24%, 1);
+  --cal-border-semantic-attention-subtle: hsla(45, 93%, 30%, 1); /* yellow attention border */
+  --cal-border-semantic-error-subtle: hsla(0, 84%, 30%, 1); /* red error border */
 
-  /* Legacy Border - Consider deprecating */
-  --cal-border-error: hsla(0, 63%, 24%, 1); /* Keeping existing error border */
+  /* Legacy Border */
+  --cal-border-error: hsla(0, 84%, 60%, 1); /* red error border */
 
   /* Content/Text Standard */
-  --cal-text-emphasis: hsla(0, 0%, 98%, 1); /* stone-50 */
-  --cal-text: hsla(0, 0%, 83%, 1); /* stone-300 */
-  --cal-text-subtle: hsla(0, 0%, 64%, 1); /* stone-400 */
-  --cal-text-muted: hsla(0, 0%, 64%, 1); /* stone-400 */
-  --cal-text-inverted: hsla(0, 0%, 0%, 1); /* black */
+  --cal-text-emphasis: hsla(0, 0%, 100%, 1); /* white text emphasis */
+  --cal-text: hsla(0, 0%, 90%, 1); /* light gray text */
+  --cal-text-subtle: hsla(0, 0%, 70%, 1); /* medium gray text */
+  --cal-text-muted: hsla(0, 0%, 50%, 1); /* muted gray text */
+  --cal-text-inverted: hsla(221, 39%, 11%, 1); /* dark indigo inverted text */
 
   /* Content/Text Semantic */
-  --cal-text-semantic-info: hsla(229, 90%, 74%, 1); /* blue-100 */
-  --cal-text-semantic-success: hsla(161, 49%, 54%, 1); /* green-100 */
-  --cal-text-semantic-attention: hsla(27, 96%, 61%, 1); /* orange-100 */
-  --cal-text-semantic-error: hsla(0, 91%, 71%, 1); /* red-100 */
+  --cal-text-semantic-info: hsla(142, 76%, 60%, 1); /* lime green info text */
+  --cal-text-semantic-success: hsla(142, 76%, 60%, 1); /* lime green success text */
+  --cal-text-semantic-attention: hsla(45, 93%, 60%, 1); /* yellow attention text */
+  --cal-text-semantic-error: hsla(0, 84%, 70%, 1); /* red error text */
 
   /* Content/Text Semantic Emphasis */
-  --cal-text-semantic-info-emphasis: hsla(217, 91%, 25%, 1); /* blue-800 */
-  --cal-text-semantic-success-emphasis: hsla(142, 71%, 25%, 1); /* green-800 */
-  --cal-text-semantic-attention-emphasis: hsla(24, 95%, 25%, 1); /* orange-800 */
-  --cal-text-semantic-error-emphasis: hsla(0, 84%, 25%, 1); /* red-800 */
+  --cal-text-semantic-info-emphasis: hsla(142, 76%, 70%, 1); /* lighter lime green */
+  --cal-text-semantic-success-emphasis: hsla(142, 76%, 70%, 1); /* lighter lime green */
+  --cal-text-semantic-attention-emphasis: hsla(45, 93%, 70%, 1); /* lighter yellow */
+  --cal-text-semantic-error-emphasis: hsla(0, 84%, 80%, 1); /* lighter red */
 
-  /* Legacy Content/Text Components - Consider deprecating */
-  --cal-text-info: hsla(218, 83%, 93%, 1); /* Keeping existing info text */
-  --cal-text-success: hsla(134, 76%, 94%, 1); /* Keeping existing success text */
-  --cal-text-attention: hsla(37, 86%, 92%, 1); /* Keeping existing attention text */
-  --cal-text-error: hsla(3, 66%, 93%, 1); /* Keeping existing error text */
+  /* Legacy Content/Text Components */
+  --cal-text-info: hsla(142, 76%, 60%, 1); /* lime green info text */
+  --cal-text-success: hsla(142, 76%, 60%, 1); /* lime green success text */
+  --cal-text-attention: hsla(45, 93%, 60%, 1); /* yellow attention text */
+  --cal-text-error: hsla(0, 84%, 70%, 1); /* red error text */
 
   /* Brand */
-  --cal-brand: hsla(0, 0%, 100%, 1); /* white */
-  --cal-brand-emphasis: hsla(218, 11%, 65%, 1); /* Keeping existing brand emphasis */
-  --cal-brand-text: hsla(0, 0%, 0%, 1); /* black */
+  --cal-brand: hsla(142, 76%, 36%, 1); /* lime green brand */
+  --cal-brand-emphasis: hsla(142, 76%, 28%, 1); /* darker lime green brand */
+  --cal-brand-text: hsla(0, 0%, 100%, 1); /* white brand text */
 }
 
 @layer base {

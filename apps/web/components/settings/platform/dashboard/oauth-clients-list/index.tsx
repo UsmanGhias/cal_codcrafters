@@ -58,7 +58,7 @@ export const OAuthClientsList = ({ oauthClients, isDeleting, handleDelete }: OAu
       ) : (
         <EmptyScreen
           headline="Create your first OAuth client"
-          description="OAuth clients facilitate access to Cal.com on behalf of users"
+          description="OAuth clients facilitate access to CODCrafters Calendar on behalf of users"
           Icon="plus"
           className=""
           buttonRaw={<NewOAuthClientButton redirectLink="/settings/platform/oauth-clients/create" />}
